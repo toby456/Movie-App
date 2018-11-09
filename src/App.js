@@ -2,12 +2,9 @@ import React, { Component } from 'react';
 import SingleMovie from './SingleMovie.js'
 import AllMovies from './AllMovies.js'
 
-// import express from ''
-// const express = require("express");
-// const path = require("path");
-// const open = require("open");
-// const lodash = require("lodash")
-const axios = require("axios")
+
+
+
 
 class App extends Component {
 
@@ -24,9 +21,8 @@ class App extends Component {
       <br />
       <div id = "info">
       </div>
-      <div id = "info2">
       </div>
-      </div>
+
     );
   }
 }
